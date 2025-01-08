@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.admin-dashboard {
+  padding: 20px;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 1; /* Allow it to expand and take available space */
+  overflow: hidden;
+}
+
+/* Pie Chart Container */
+.pie-chart-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden; /* Prevent pie chart from overflowing */
+  box-sizing: border-box;
+  height: 100%;
+}
+
+/* User Cards */
+.user-cards {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 10px;
+  box-sizing: border-box;
+  height: calc(100vh - 100px); /* Allow for scroll, ensure fit inside the viewport */
+  overflow-y: auto; /* Enable vertical scrolling if content is too tall */
+  flex-grow: 1;
+}
+
+/* Individual User Card */
+.user-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box; /* Ensure padding is included in size */
+}
+
+/* Travel Details Styling */
+.travel-details {
+  margin-bottom: 15px;
+}
+
+.travel-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow: hidden; /* Ensure content does not spill out */
+}
+
+/* Buttons */
+.accept-button,
+.reject-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accept-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.reject-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+.reject-button:hover {
+  background-color: #e53935;
+}

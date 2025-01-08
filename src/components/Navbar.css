@@ -1,0 +1,44 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #000000; /* Sky blue background */
+    padding: 15px 20px; /* Adding padding */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 100%; /* Ensure navbar stretches across the full width */
+    position: fixed; /* Make navbar fixed at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure navbar stays on top of other content */
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; /* Center the links horizontally */
+    align-items: center;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .navbar-links li {
+    padding: 10px;
+  }
+  
+  .navbar-links a {
+     /* White text */
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease; /* Smooth transition for hover color */
+  }
+  
+  /* Hover effect for links */
+  .navbar-links a:hover {
+    color: #00bfff; /* Lighter sky blue on hover */
+  }
+  
+  /* Icon styling */
+  .navbar-links a i {
+    margin-right: 8px; /* Spacing between icon and text */
+  }
+  

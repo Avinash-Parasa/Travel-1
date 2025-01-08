@@ -1,0 +1,81 @@
+/* Register.css */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f5; /* Light gray background */
+  font-family: Arial, sans-serif;
+}
+
+.register-container {
+  background-color: #ffffff; /* White background for the form */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 20px;
+  color: #333333; /* Dark text color */
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.register-button {
+  background-color: #000000; /* Green button */
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: block; /* Ensure the button is treated as a block element */
+  margin: 0 auto; /* Center it horizontally */
+  width: 100%; /* Optional: Make the button fill the width */
+  max-width: 150px; /* Optional: Add a maximum width */
+}
+
+
+.register-button:hover {
+  background-color: #45a049; /* Slightly darker green */
+}
+
+.register-container p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.register-container a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.register-container a:hover {
+  text-decoration: underline;
+}
