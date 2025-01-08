@@ -8,7 +8,7 @@ const Navbar = () => {
       <ul className="navbar-links">
         <li>
           <Link to="/">
-            Mock.com
+            BookHere.com
           </Link>
         </li>
         <li>
